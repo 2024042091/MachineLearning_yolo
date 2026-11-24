@@ -1,6 +1,5 @@
-"""학습된 모델로 영상에서 객체 감지 + 추적, 앞 5초만 mp4로 저장.
-사용: python track.py runs/custom/weights/best.pt input.mp4 result_5s.mp4
-궤적(trajectory)은 trajectory.csv로도 저장됩니다.
+"""학습된 모델로 영상에서 객체 감지 + 추적, 앞 5초만 mp4로 저장
+궤적(trajectory)은 trajectory.csv로도 저장
 """
 import sys
 import csv
